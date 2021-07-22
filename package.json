@@ -1,0 +1,19 @@
+{
+  "name": "code-examples",
+  "version": "1.0.0",
+  "description": "code examples, mostly codewars",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexcphillips/code-examples.git"
+  },
+  "author": "Alexander Phillips",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexcphillips/code-examples/issues"
+  },
+  "homepage": "https://github.com/alexcphillips/code-examples#readme"
+}
