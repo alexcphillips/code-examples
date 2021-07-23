@@ -1,0 +1,1 @@
+export const groupByCommas = (n: number): string => String(n).split('').reduce((accu, curr, i, arr) => (arr.length - i) % 3 === 0 ? accu + ',' + curr : accu + curr)
