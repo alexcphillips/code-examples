@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "code examples, mostly codewars",
   "scripts": {
-    "test": "jest --coverage",
+    "test": "jest --coverage --runInBand",
     "tsc": "tsc -p tsconfig.json --watch"
   },
   "repository": {
