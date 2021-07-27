@@ -5,5 +5,11 @@ export function DNAStrand(dna: string): string {
     G: 'C',
     C: 'G'
   };
-  return dna.split('').map((i: string): string => DNAMap[i]).join('')
+
+  dna.split('').forEach(i => {
+    if(!DNAMap[i]){
+      throw new Error('Invalid entry!');
+    }
+  });
+  return dna.split('').map((i: string): string => DNAMap[i]).join('');
 }
