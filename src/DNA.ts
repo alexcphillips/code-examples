@@ -5,6 +5,7 @@ export function DNAStrand(dna: string): string {
     G: 'C',
     C: 'G'
   };
+
   dna.split('').forEach(i => {
     if(!DNAMap[i]){
       throw new Error('Invalid entry!');
