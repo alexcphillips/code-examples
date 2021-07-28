@@ -4,7 +4,7 @@ describe('roman numerals helper', () => {
   function runToRoman(input: number, result: string) {
     expect(RomanNumerals.toRoman(input)).toStrictEqual(result)
   }
-  
+
   function runFromRoman(input: string, result: number) {
     expect(RomanNumerals.fromRoman(input)).toStrictEqual(result)
 
